@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--	Author: Mike O'Kane
+		Date:	August 15, 2007
+		File:	processSurvey.html
+		Purpose:Prompts the user for a file name
+		Input: fileName
+		Output: Submits the file name to processSurvey.php
+-->
+
+<html>
+<head>
+	<title>SMOKING SURVEY REPORT</title>
+	<link rel ="stylesheet" type="text/css" href="sample.css" />
+</head>
+<body>
+
+	<h1>SMOKING SURVEY REPORT</h1>
+
+	<form action ="processSurvey.php" method = "post" />
+
+		<p>Choose the survey file to process:</p>
+
+		<p><select name = "fileName">
+		<option>sampleSurvey.txt</option>
+		</select></p>
+
+		<input type ="submit" value ="Display the Report" />
+	</form>
+</body>
+</html>
+

@@ -1,0 +1,89 @@
+120326 15:05:13 [Note] Plugin 'FEDERATED' is disabled.
+120326 15:05:13  InnoDB: Started; log sequence number 0 46409
+120326 15:05:14 [Note] Event Scheduler: Loaded 0 events
+120326 15:05:14 [Note] E:\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+120326 15:05:39 [Note] E:\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+120326 15:05:40 [Note] Event Scheduler: Purging the queue. 0 events
+120326 15:05:40  InnoDB: Starting shutdown...
+120326 15:05:41  InnoDB: Shutdown completed; log sequence number 0 46409
+120326 15:05:41 [Note] E:\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+130510  9:11:05 [Note] Plugin 'FEDERATED' is disabled.
+130510  9:11:06  InnoDB: Started; log sequence number 0 46409
+130510  9:11:07 [Note] Event Scheduler: Loaded 0 events
+130510  9:11:07 [Note] E:\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+130510  9:15:25 [Note] E:\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+130510  9:15:26 [Note] Event Scheduler: Purging the queue. 0 events
+130510  9:15:26  InnoDB: Starting shutdown...
+130510  9:15:28  InnoDB: Shutdown completed; log sequence number 0 46409
+130510  9:15:28 [Note] E:\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+130510  9:18:48 [Note] Plugin 'FEDERATED' is disabled.
+130510  9:18:49  InnoDB: Started; log sequence number 0 46409
+130510  9:18:50 [Note] Event Scheduler: Loaded 0 events
+130510  9:18:50 [Note] E:\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+130510  9:38:48 [Note] E:\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+130510  9:38:49 [Note] Event Scheduler: Purging the queue. 0 events
+130510  9:38:49  InnoDB: Starting shutdown...
+130510  9:38:51  InnoDB: Shutdown completed; log sequence number 0 46409
+130510  9:38:51 [Note] E:\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+130510  9:39:10 [Note] Plugin 'FEDERATED' is disabled.
+130510  9:39:10  InnoDB: Started; log sequence number 0 46409
+130510  9:39:12 [Note] Event Scheduler: Loaded 0 events
+130510  9:39:12 [Note] E:\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+130510  9:54:23 [Note] E:\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+130510  9:54:24 [Note] Event Scheduler: Purging the queue. 0 events
+130510  9:54:25  InnoDB: Starting shutdown...
+130510  9:54:26  InnoDB: Shutdown completed; log sequence number 0 46409
+130510  9:54:26 [Note] E:\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+170125 16:17:35 [Note] Plugin 'FEDERATED' is disabled.
+170125 16:17:36  InnoDB: Started; log sequence number 0 46409
+170125 16:17:36 [Note] Event Scheduler: Loaded 0 events
+170125 16:17:36 [Note] C:\PHP Projects\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+170125 16:20:19 [Note] C:\PHP Projects\xampplite\mysql\bin\mysqld.exe: Normal shutdown
+
+170125 16:20:20 [Note] Event Scheduler: Purging the queue. 0 events
+170125 16:20:20  InnoDB: Starting shutdown...
+170125 16:20:21  InnoDB: Shutdown completed; log sequence number 0 46409
+170125 16:20:21 [Note] C:\PHP Projects\xampplite\mysql\bin\mysqld.exe: Shutdown complete
+
+170125 16:26:59 [Note] Plugin 'FEDERATED' is disabled.
+170125 16:26:59  InnoDB: Started; log sequence number 0 46409
+170125 16:26:59 [Note] Event Scheduler: Loaded 0 events
+170125 16:26:59 [Note] C:\PHP Projects\xampplite\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+170125 20:57:39 [Note] Plugin 'FEDERATED' is disabled.
+170125 20:57:40  InnoDB: Started; log sequence number 0 46409
+170125 20:57:41 [Note] Event Scheduler: Loaded 0 events
+170125 20:57:41 [Note] C:\PHP Projects\xampplight\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+170125 21:35:23 [Note] C:\PHP Projects\xampplight\mysql\bin\mysqld.exe: Normal shutdown
+
+170125 21:35:24 [Note] Event Scheduler: Purging the queue. 0 events
+170125 21:35:24  InnoDB: Starting shutdown...
+170125 21:35:25  InnoDB: Shutdown completed; log sequence number 0 46409
+170125 21:35:25 [Note] C:\PHP Projects\xampplight\mysql\bin\mysqld.exe: Shutdown complete
+
+170125 21:39:43 [Note] Plugin 'FEDERATED' is disabled.
+170125 21:39:44  InnoDB: Started; log sequence number 0 46409
+170125 21:39:44 [Note] Event Scheduler: Loaded 0 events
+170125 21:39:44 [Note] C:\PHP Projects\xampplight\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.41'  socket: ''  port: 3306  Source distribution
+170125 21:45:20 [Note] C:\PHP Projects\xampplight\mysql\bin\mysqld.exe: Normal shutdown
+
+170125 21:45:21 [Note] Event Scheduler: Purging the queue. 0 events
+170125 21:45:21  InnoDB: Starting shutdown...
+170125 21:45:21  InnoDB: Shutdown completed; log sequence number 0 46409
+170125 21:45:21 [Note] C:\PHP Projects\xampplight\mysql\bin\mysqld.exe: Shutdown complete
+
