@@ -4,10 +4,20 @@
 	Purpose:Chapter 3 Exercise
 -->
 
-travel.html algorithm:
+This will calculate the "value of your life" based off of the amount of "close calls" you experience while hitchhiking down the middle of a 75mph interstate. 
+Note that a "close call" can be anywhere from a hippie chasing you off of their property, or a snake wanting to play chicken.
 
+travel.html algorithm:
+	
+	Prompt for closeCalls
+	Get closeCalls
+	Submit closeCalls to travel.php
 END
 
 travel.php algorithm:
 
+	Recieve closeCalls from travel.html
+	lifeValue = closeCall ** 2
+	Display closeCalls, lifeValue
+	
 END

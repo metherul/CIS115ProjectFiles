@@ -4,12 +4,21 @@
 	Purpose:Chapter 3 Exercise
 -->
 
+This program will calculate the price of a can of paint depending on the weight.
+Lets just say that the paint is $200 per pound.
+
 paintEstimate.html algorithm:
 
+	Prompt for paintWeight
+	Get paintWeight
+	Submit paintWeight to paintEstimate.php
 END
 
 
 
 paintEstimate.php algorithm:
 
+	Recieve paintWeight from paintEstimate.html
+	totalCost = paintWeight * 200
+	Display paintWeight, totalCost
 END

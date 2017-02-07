@@ -4,10 +4,19 @@
 	Purpose:Chapter 3 Exercise
 -->
 
+This program will calculate the total cost of Microsoft Word license keys.
+Lets say that a license key is $20,000 (pretty close!)
+
 softwareOrder.html algorithm:
 
+	Prompt for softwareAmount
+	Get softwareAmount
+	Submit softwareAmount to softwareOrder.php
 END
 
 softwareOrder.php algorithm:
 
+	Recieve softwareAmount
+	totalCost = softwareAmount * 20000
+	Display softwareAmount, totalCost
 END

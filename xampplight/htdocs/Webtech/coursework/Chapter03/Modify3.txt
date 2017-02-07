@@ -29,3 +29,25 @@ ticketPurchase.php algorithm:
 	totalCost = numTickets * 6.50
 	Display numTickets, totalCost
 END
+
+<!-- FIXED -->
+
+ticketPurchase.html algorithm:
+
+	Prompt for numAdultTickets
+	Get numAdultTickets
+	Prompt numChildTickets
+	Get numChildTickets
+	Submit numAdultTickets, numChildTickets to ticketPurchase.php
+END
+
+ticketPurchase.php algorithm:
+
+	Receive numAdultTickets, numChildTickets from ticketPurchase.html
+	adultPrice = numAdultTickets * 6.50
+	childPrice = numChildTickets * 4.50
+	totalCost = adultPrice + childPrice
+	Display numAdultTickets, numChildTickets, totalCost
+END
+
+- In the original version, the program was not made to handle both the adult and child tickets. 

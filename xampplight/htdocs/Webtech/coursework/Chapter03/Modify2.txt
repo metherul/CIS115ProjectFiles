@@ -27,3 +27,23 @@ calcRetirement.php algorithm:
 	yearsToRetire = 65 - age
 	Display age, yearsToRetire
 END
+
+<!-- FIXED -->
+
+calcRetirement.html algorithm:
+
+	Prompt for age
+	Get age
+	Prompt for retirementYear
+	Get retirementYear
+	Submit age and retirementYear to calcRetirement.php
+END
+
+calcRetirement.php algorithm:
+
+	Receives age and retirementYear from calcRetirement.html
+	yearsToRetire = GetYears(retirementYear) - age # This is some odd "code". It calls the GetYears method, which returns the years until the retirement year. More info down below.
+	Display age, yearsToRetire
+END
+
+- Since the instructions asked for an age and a retirementYear, you have to convert the date to years, and then subtract the age from that. At least you don't have to mess with System.DateTime (horrible namespace).

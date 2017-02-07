@@ -30,3 +30,23 @@ calcRetirement.php algorithm:
 	yearsToRetire = 65 - age
 	Display age, yearsToRetire
 END	
+
+<!-- FIXED -->
+
+calcRetirement.html algorithm:
+
+	Prompt for age
+	Get age
+	Submit age to calcRetirement.php
+END
+
+calcRetirement.php algorithm:
+
+	Receive age from calcRetirement.html
+	yearsToRetire = 65 - age
+	yearsWorked = age - 18
+	Display age, yearsToRetire, yearsWorked
+END	
+
+- The code did not fufill the requirements to calculate the years that the person had worked.
+

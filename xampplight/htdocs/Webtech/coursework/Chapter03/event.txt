@@ -4,10 +4,22 @@
 	Purpose:Chapter 3 Exercise 
 -->
 	
-event.html algorithm:
+This program will calculate the total cost of your party based on the amount of adults and children that come.
 	
+event.html algorithm:
+
+	Prompt amountAdults
+	Get amountAdults
+	Prompt amountChildren
+	Get amountChildren
+	Submit amountAdults, amountChildren to event.php
 END
 
 event.php algorithm:
 
+	Recieve amountAdults, amountChildren
+	adultCost = amountAdults * 5.32
+	childCost = amountChildren * 9.98
+	totalCost = adultCost + childCost
+	Display childCost, adultCost, totalCost
 END

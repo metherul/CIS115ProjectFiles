@@ -4,12 +4,23 @@
 	Purpose:Chapter 3 Exercise
 -->
 
+This game is another from a massive Triple-A developer, starring a massive cast of very known voice actors. The role of this application is to assign a name for character creation.
+This file has some weird "code", but hopefully it'll do the trick.
+
 gameIntro.html algorithm:
 
-	
+	Prompt playerName
+	Get playerName
+	Submit playerName to gameIntro.php
 
 END
 
 gameIntro.php algorithm:
 
+	Recieve playerName from gameIntro.html
+	confirmPrompt Text = "Are you sure about this name?" # Ask the user to make sure that they want the name they entered.
+	confirmPrompt = visible
+	if true: playerNameTag = playerName # Set the floating text above the player to their name.
+	else: goto gameIntro.html # Not PHP, I know.
+	
 END

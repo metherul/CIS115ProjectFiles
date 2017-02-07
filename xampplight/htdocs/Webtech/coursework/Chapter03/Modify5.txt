@@ -19,3 +19,18 @@ REPEAT
 Test the air pressure
 UNTIL air pressure = correct pressure
 
+<!-- FIXED -->
+
+REPEAT UNTIL air pressure = correct pressure
+	Test the air pressure
+
+	IF air pressure < correct pressure
+		Add some air
+	ENDIF
+		
+	IF air pressure > correct pressure
+		Release some air
+	ENDIF
+
+
+

@@ -30,3 +30,23 @@ calcTax.php algorithm:
 	total = purchaseAmount + tax
 	Display purchaseAmount, tax, total
 END
+
+<!-- FIXED -->
+
+calcTax.html algorithm:
+
+	Prompt for purchaseAmount
+	Get purchaseAmount
+	Submit purchaseAmount to calcTax.php
+END
+
+calcTax.php algorithm:
+
+	Receive purchaseAmount from calcTax.html
+	discount = purchaseAmount * .75
+	tax = discount * 0.07
+	total = discount + tax
+	Display discount, tax, total
+END
+
+- The original program was not designed to handle the discount.
