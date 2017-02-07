@@ -1,14 +1,24 @@
 <!--	Author:
-	Date:
+	Date:	Feb 6
 	File:	fuelCost.txt
 	Purpose:Chapter 3 Exercise
 -->
 
+Fuel cost: $2.00.
+This program calculates the total fuel cost - find by multiplying the cost of the Fuel by the total amount bought.
+
 fuelCost.html algorithm:
 
-	
+	Prompt for the total amount of Fuel purchased
+	Get fuelAmount
+	Submit fuelAmount to fuelCost.php	
 END
 
 fuelCost.php algorithm:
+
+	Recieve fuelAmount from fuelCost.php
+	fuelCost = $2.00 #Note that in normal programming you cannot use the dollar symbol.
+	totalFuelCost = fuelCost * fuelAmount
+	Display fuelAmount, fuelCost, totalFuelCost
 
 END

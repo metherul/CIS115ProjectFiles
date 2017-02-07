@@ -1,5 +1,5 @@
 <!--	Author:
-	Date:
+	Date:	  Feb 6
 	File:	  FixIt5.txt
 	Purpose:  Chapter3 Exercise
 -->
@@ -27,5 +27,24 @@ calcTax.php algorithm:
 	total = purchaseAmount + tax
 	Display purchaseAmount, tax, total
 END
+
+<!-- FIXED -->
+
+calcTax.html algorithm:
+
+	Prompt for purchaseAmount
+	Get purchaseAmount
+	Submit purchaseAmount to calcTax.php
+END
+
+calcTax.php algorithm:
+
+	Receive purchaseAmount from calcTax.html
+	tax = purchaseAmount * 0.07
+	total = purchaseAmount + tax
+	Display purchaseAmount, tax, total
+END
+
+- The variable purchaseAmount is not being recieved in calcTax.php because tax is being passed though instead.
 
 

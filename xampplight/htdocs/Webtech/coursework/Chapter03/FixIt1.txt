@@ -1,5 +1,5 @@
 <!--	Author:
-	Date:
+	Date:	  Feb 6
 	File:	  FixIt1.txt
 	Purpose:  Chapter3 Exercise
 -->
@@ -27,5 +27,26 @@ calcRetirement.php algorithm:
 	yearsToRetire = 65 - age
 END
 
+<!-- FIXED -->
+
+calcRetirement.html algorithm:
+
+	Prompt for age
+	Get age
+	Submit age to calcRetirement.php
+END
+
+calcRetirement.php algorithm:
+
+	Receive age from calcRetirement.html
+	yearsToRetire = 65 - age	
+	Display age, yearsToRetire
+
+- You cannot display the yearsToRetire variabe when it does not exist.
+	
 
 
+
+
+
+END

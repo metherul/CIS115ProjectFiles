@@ -1,5 +1,5 @@
 <!--	Author:
-	Date:
+	Date:	  Feb 6
 	File:	  FixIt2.txt
 	Purpose:  Chapter3 Exercise
 -->
@@ -26,5 +26,24 @@ calcRetirement.php algorithm:
 	yearsToRetire = age - 65
 	Display age, yearsToRetire
 END
+
+<!-- FIXED -->
+
+calcRetirement.html algorithm::
+
+	Prompt for age
+	Get age
+	Submit age to calcRetirement.php
+END
+
+calcRetirement.php algorithm:
+
+	Receive age from calcRetirement.html
+	yearsToRetire = 65 - age
+	Display age, yearsToRetire
+END
+
+- In order to find the remaining years to retirement, you subtract your age from the retirement age (65).
+
 
 

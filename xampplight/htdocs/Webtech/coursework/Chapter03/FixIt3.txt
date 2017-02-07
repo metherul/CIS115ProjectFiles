@@ -1,5 +1,5 @@
 <!--	Author:
-	Date:
+	Date:	  Feb 6
 	File:	  FixIt3.txt
 	Purpose:  Chapter3 Exercise
 -->
@@ -27,5 +27,20 @@ ticketPurchase.php algorithm:
 	Display numTickets, totalCost
 END
 
+<!-- FIXED -->
 
+ticketPurchase.html algorithm:
 
+	Get numTickets
+	Prompt for numTickets
+	Submit numTickets to ticketPurchase.php
+END
+
+ticketPurchase.php algorithm:
+
+	Receive numTickets from ticketPurchase.html
+	totalCost = numTickets * 6.50
+	Display numTickets, totalCost
+END
+
+- The application was passing through the numTickets variable when is was null, meaning that the subsequent calculations would fail.
