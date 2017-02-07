@@ -18,8 +18,7 @@
             $circumference = 2 * pi() * $radius;
             
             print("<p>A circle with a radius of $radius has an area of $area and a circumference of $circumference.</p>")
-                
-        ?>
+    ?>
         <p><a href="circle.html">Calculate another circle?</a></p>
 </body>
 
