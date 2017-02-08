@@ -1,25 +1,79 @@
-<!--	Author:
-	Date:
-	File:	event.txt
-	Purpose:Chapter 3 Exercise 
+<!--Author:  Ethan Green
+	Date:    Feb 6
+	File:	 event.txt
+	Purpose: Chapter 3 Exercise 
 -->
-	
-This program will calculate the total cost of your party based on the amount of adults and children that come.
-	
-event.html algorithm:
 
-	Prompt amountAdults
-	Get amountAdults
-	Prompt amountChildren
-	Get amountChildren
-	Submit amountAdults, amountChildren to event.php
+Inputs
+{
+    Name
+    Phone number
+    Ticket count
+}
+
+Outputs
+{
+    Name
+    Phone number
+    Ticket Count
+    Total Cost
+}
+
+Example
+{
+    Inputs
+    {
+        Name = "James Bond"
+        Phone number = "REDACTED"
+        Ticket count = 10
+    }
+    
+    Ouputs
+    {
+        Name = Name -> "James Bond"
+        Phone number = Phone number -> "REDACTED"
+        Ticket count = Ticket count -> 10
+        Total cost = Ticket count * 35 -> 350
+    }
+}
+
+
+
+######## THE INSTRUCTIONS ########
+
+
+
+event.html:
+
+    PROMPT for name, phoneNumber, ticketCount
+    GET name, phoneNumber, ticketCount
+    SUBMIT name, phoneNumber, ticketCount
 END
 
-event.php algorithm:
-
-	Recieve amountAdults, amountChildren
-	adultCost = amountAdults * 5.32
-	childCost = amountChildren * 9.98
-	totalCost = adultCost + childCost
-	Display childCost, adultCost, totalCost
-END
+event.php:
+    RECIEVE name, phoneNumber, ticketCount
+    
+    totalCost = ticketCount * 35
+    
+    DISPLAY name, phoneNumber, ticketCount, totalCost
+EMD
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

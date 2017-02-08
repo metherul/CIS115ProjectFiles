@@ -1,24 +1,54 @@
-<!--	Author:
-	Date:	Feb 6
-	File:	fuelCost.txt
-	Purpose:Chapter 3 Exercise
+<!--Author:  Ethan Green
+	Date:	 Feb 6
+	File:	 fuelCost.txt
+	Purpose: Chapter 3 Exercise
 -->
 
-Fuel cost: $2.00.
-This program calculates the total fuel cost - find by multiplying the cost of the Fuel by the total amount bought.
+Inputs
+{
+    Fuel consumption
+    Miles traveled
+    Fuel cost
+}
+
+Ouputs
+{
+    Cost of trip
+}
+
+Example
+{
+    Inputs
+    {
+        Fuel consumption = 20
+        Miles traveled = 100
+        Fuel cost = 3.00
+    }
+    
+    Ouputs
+    {
+        Cost of trip = (Miles traveled / Fuel consumption) * Fuel cost -> 15.00
+    }
+}
+
+
+
+######## THE INSTRUCTIONS ########
+
+
 
 fuelCost.html algorithm:
 
-	Prompt for the total amount of Fuel purchased
-	Get fuelAmount
-	Submit fuelAmount to fuelCost.php	
+    PROMPT for fuelConsumption, milesTraveled, fuelCost
+    GET fuelConsumption, milesTraveled, fuelCost
+    SUBMIT fuelConsumption, milesTraveled, fuelCost
 END
 
 fuelCost.php algorithm:
 
-	Recieve fuelAmount from fuelCost.php
-	fuelCost = $2.00 #Note that in normal programming you cannot use the dollar symbol.
-	totalFuelCost = fuelCost * fuelAmount
-	Display fuelAmount, fuelCost, totalFuelCost
-
+    RECIEVE fuelConsumption, milesTraveled, fuelCost
+    
+    totalCost = (milesTraveled / fuelConsumption) * fuelCost
+    
+    DISPLAY totalCost
 END

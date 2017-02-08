@@ -1,22 +1,76 @@
-<!--	Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   Feb 6
 	File:	softwareOrder.txt
 	Purpose:Chapter 3 Exercise
 -->
 
-This program will calculate the total cost of Microsoft Word license keys.
-Lets say that a license key is $20,000 (pretty close!)
+Inputs
+{
+    Number of copies
+    Operating system
+}
+
+Outputs
+{
+    Operating system
+    Number of copies
+    Sub-total
+    Tax
+    Shipping and Handling
+    Totalcost
+}
+
+Example
+{
+    Inputs
+    {
+        Number of copies = 5
+        Operating system = "Windows 98" 
+    }
+    
+    Outputs
+    {
+        Operating System = Opertating System -> "Windows 98"
+        Number of copies = Number of copies -> 5
+        Sub-total = Number of copies * 35.00 -> 175.00
+        Tax = Sub-Total * .07 -> 12.25
+        Shipping and Handling = Number of copies * 1.25 -> 6.25
+        Total cost = Sub-Total + Tax + Shipping and Handling -> 193.50
+    }
+}
+
+
+######## THE INSTRUCTIONS ########
+
 
 softwareOrder.html algorithm:
 
-	Prompt for softwareAmount
-	Get softwareAmount
-	Submit softwareAmount to softwareOrder.php
+    PROMPT for operatingSystem, copyCount
+    GET operatingSystem, copyCount
+    SUBMIT operatingSystem, copyCount
 END
 
 softwareOrder.php algorithm:
 
-	Recieve softwareAmount
-	totalCost = softwareAmount * 20000
-	Display softwareAmount, totalCost
+    RECIEVE operatingSystem, copyCount
+    
+    subTotal = copyCount * 35.00
+    tax = subTotal * .07
+    shippingHandling = copyCount * 1.25
+    totalCost = subTotal + tax + shippingHandling
+    
+    DISPLAY operatingSystem, copyCount, subTotal, tax, shippingHandling, totalCost
 END
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

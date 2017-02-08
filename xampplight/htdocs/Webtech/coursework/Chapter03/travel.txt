@@ -1,23 +1,62 @@
-<!--	Author:
-	Date:
-	File:	travel.txt
-	Purpose:Chapter 3 Exercise
+<!--Author:  Ethan Green
+	Date:    Feb 6
+	File:	 travel.txt
+	Purpose: Chapter 3 Exercise
 -->
 
-This will calculate the "value of your life" based off of the amount of "close calls" you experience while hitchhiking down the middle of a 75mph interstate. 
-Note that a "close call" can be anywhere from a hippie chasing you off of their property, or a snake wanting to play chicken.
+Inputs
+{
+    Number of people
+    Number of nights
+}
 
-travel.html algorithm:
-	
-	Prompt for closeCalls
-	Get closeCalls
-	Submit closeCalls to travel.php
+Outputs
+{
+    Number of people
+    Number of nights
+    Airline ticket price
+    Hotel Cost
+    Total Cost
+}
+
+Example
+{
+    Inputs
+    {
+        Number of people = 2
+        Number of nights = 4
+    }
+    
+    Outputs
+    {
+        Number of people = Number of people -> 2
+        Number of nights = Number of nights -> 4
+        Airline Ticket Price = Number of people * 875 -> 1750
+        Hotel Cost = Number of people * Number of nights * 110 -> 880
+        Total Cost = Airline Ticket Price + Hotel Cost -> 2630
+    }
+}
+
+
+
+######## THE INSTRUCTIONS ########
+
+
+
+travel.html:
+
+    PROMPT for peopleCount, nightCount
+    GET peopleCount, nightCount
+    SUBMIT peopleCount, nightCount 
 END
 
-travel.php algorithm:
+travel.php:
 
-	Recieve closeCalls from travel.html
-	lifeValue = closeCall ** 2
-	Display closeCalls, lifeValue
-	
+    RECIEVE peopleCount, nightCount
+    
+    airlineCost = peopleCount * 875
+    hotelCost = peopleCount * nightCount * 110
+    totalCost = airlineCost + hotelCost
+    
+    DISPLAY peopleCount, nightCount, airlineCost, hotelCost, totalCost
 END

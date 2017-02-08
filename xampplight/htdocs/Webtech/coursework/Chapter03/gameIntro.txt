@@ -1,26 +1,98 @@
-<!--	Author:
-	Date:	Feb 6
-	File:	gameIntro.txt
-	Purpose:Chapter 3 Exercise
+<!--Author:  Ethan Greens
+	Date:	 Feb 6
+	File:	 gameIntro.txt
+	Purpose: Chapter 3 Exercise
 -->
 
-This game is another from a massive Triple-A developer, starring a massive cast of very known voice actors. The role of this application is to assign a name for character creation.
-This file has some weird "code", but hopefully it'll do the trick.
+Inputs
+{
+    Character name
+    Character type
+    Number of experience tokens
+    Number of health tokens
+    Number of supply tokens
+}
+
+Outputs
+{
+    Character name
+    Character type
+    Number of experience tokens
+    Number of health tokens
+    Number of supply tokens
+    Total Cost
+}
+
+Example
+{
+    Inputs
+    {
+        Character name = "Marv"
+        Character type = "Explorer"
+        Number of experience tokens = 10
+        Number of health tokens = 20
+        Number of supply tokens = 25
+    }
+    
+    Outputs
+    {
+        Character name = Character name
+        Character type = Character type
+        Number of experience tokens = Number of experience tokens
+        Number of health tokens = Number of health tokens
+        Number of supply tokens = Number of supply tokens
+        Total Cost = (health / 10) + (experience / 2) + (supply / 25) -> 8 gold
+    }
+}
+
+
+
+######## THE INSTRUCTIONS ########
+
+
 
 gameIntro.html algorithm:
 
-	Prompt playerName
-	Get playerName
-	Submit playerName to gameIntro.php
-
+    PROMPT for characterName, characterType, experienceTokens, healthTokens, supplyTokens
+    GET characterName, characterType, experienceTokens, healthTokens, supplyTokens
+    SUBMIT characterName, characterType, experienceTokens, healthTokens, supplyTokens
 END
 
 gameIntro.php algorithm:
 
-	Recieve playerName from gameIntro.html
-	confirmPrompt Text = "Are you sure about this name?" # Ask the user to make sure that they want the name they entered.
-	confirmPrompt = visible
-	if true: playerNameTag = playerName # Set the floating text above the player to their name.
-	else: goto gameIntro.html # Not PHP, I know.
-	
+    RECIEVE characterName, characterType, experienceTokens, healthTokens, supplyTokens
+    
+    experienceCost = experienceTokens / 2
+    healthCost = healthTokens / 10
+    supplyCost = supplyTokens / 25
+    totalCost = experienceCost + healthCost + supplyCost
+    
+    DISPLAY characterName, characterType, experienceTokens, healthTokens, supplyTokens, 
 END
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
