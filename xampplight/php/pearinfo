@@ -1,4 +1,4 @@
-#!C:\PHP Projects\xampplight\php\php.exe
+#!C:\CIS 115\xampplight\php\php.exe
 <?php
 /**
  * Generate text phpinfo() style PEAR information, for CLI.

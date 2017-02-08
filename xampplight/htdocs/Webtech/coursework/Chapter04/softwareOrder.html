@@ -1,17 +1,43 @@
 <!DOCTYPE html>
-<!--	Author:
-		Date:
-		File:	softWareOrder.html
-		Purpose: Chapter 4 Exercise
+<!--Author:   Ethan Green
+	Date:     Feb 7
+	File:	  softwareOrder.html
+	Purpose:  Chapter 4 Exercise
 -->
-
+<!-- COMPLETED -->
 <html>
+
 <head>
-	<title>SaveTheWorld Software</title>
-	<link rel ="stylesheet" type="text/css" href="chapter4.css" />
-</head>
+    <title>SaveTheWorld Software</title>
+    <link rel="stylesheet" type="text/css" href="chapter4.css" /> </head>
 
 <body>
+    <h1>SaveTheWorld: Order Form</h1>
+    <p>To order <strong>SaveTheWorld</strong>, please complete the following order form:</p>
+
+    <form action="softwareOrder.php" method=post>
+        <table>
+            <td>
+                Choose your operating system:
+            </td>
+            <td>
+                <select name="os">
+                    <option>Linux</option>
+                    <option>Machintosh</option>
+                    <option>Windows</option>
+                </select>
+            </td>
+            <tr/>
+            <td>
+                Number of copies:
+            </td>
+            <td>
+                <input type="text" name="numCopies" />
+            </td>
+        </table>
+        <input type="submit" value="Submit Your Order">
+    </form>
 
 </body>
+
 </html>

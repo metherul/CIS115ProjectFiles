@@ -25,8 +25,8 @@ define('PEAR_IGNORE_BACKTRACE', 1);
 /**
  * @nodep Gtk
  */
-if ('C:\PHP Projects\xampplight\php\PEAR' != '@'.'include_path'.'@') {
-    ini_set('include_path', 'C:\PHP Projects\xampplight\php\PEAR');
+if ('C:\CIS 115\xampplight\php\PEAR' != '@'.'include_path'.'@') {
+    ini_set('include_path', 'C:\CIS 115\xampplight\php\PEAR');
     $raw = false;
 } else {
     // this is a raw, uninstalled pear, either a cvs checkout, or php distro

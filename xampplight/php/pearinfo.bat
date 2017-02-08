@@ -18,8 +18,8 @@ rem @version  CVS: $Id: pearinfo.bat,v 1.1 2008/03/23 10:15:10 farell Exp $
 rem @link     http://pear.php.net/package/PEAR_Info
 rem @since    File available since Release 1.8.0
 
-IF "%PHP_PEAR_INSTALL_DIR%"=="" SET "PHP_PEAR_INSTALL_DIR=C:\PHP Projects\xampplight\php\PEAR"
-IF "%PHP_PEAR_BIN_DIR%"=="" SET "PHP_PEAR_BIN_DIR=C:\PHP Projects\xampplight\php"
-IF "%PHP_PEAR_PHP_BIN%"=="" SET "PHP_PEAR_PHP_BIN=C:\PHP Projects\xampplight\php\php.exe"
+IF "%PHP_PEAR_INSTALL_DIR%"=="" SET "PHP_PEAR_INSTALL_DIR=C:\CIS 115\xampplight\php\PEAR"
+IF "%PHP_PEAR_BIN_DIR%"=="" SET "PHP_PEAR_BIN_DIR=C:\CIS 115\xampplight\php"
+IF "%PHP_PEAR_PHP_BIN%"=="" SET "PHP_PEAR_PHP_BIN=C:\CIS 115\xampplight\php\php.exe"
 
 "%PHP_PEAR_PHP_BIN%" -d include_path=".;%PHP_PEAR_INSTALL_DIR%" -f "%PHP_PEAR_BIN_DIR%/pearinfo" -- %*

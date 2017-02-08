@@ -1,4 +1,4 @@
-#!"C:\PHP Projects\xampplight\perl\bin\perl.exe"
+#!"C:\CIS 115\xampplight\perl\bin\perl.exe"
 # Copyright (C) 2000-2002 MySQL AB
 # 
 # This program is free software; you can redistribute it and/or modify

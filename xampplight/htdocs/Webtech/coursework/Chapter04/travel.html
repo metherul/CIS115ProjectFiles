@@ -1,17 +1,33 @@
 <!DOCTYPE html>
-<!--	Author:
-		Date:
-		File:	travel.html
-		Purpose: Chapter 4 Exercise
+<!--Author:   Ethan Green
+		Date:     Feb 7
+		File:	  travel.html
+		Purpose:  Chapter 4 Exercise
 -->
-
+<!-- COMPLETED -->
 <html>
+
 <head>
 	<title>Travel to Rome</title>
-	<link rel ="stylesheet" type="text/css" href="chapter4.css" />
+	<link rel="stylesheet" type="text/css" href="chapter4.css" />
 </head>
 
 <body>
+	<h1>Travel to Rome Reservation Form</h1>
+	<form action="travel.php" method=POST>
+		<table>
+			<tr/>
+			<td>How many people are traveling?</td>
+			<td><input type=text name="numTravelers" /></td>
+			<tr/>
+			<td>How many nights will you be staying?</td>
+			<td><input type=text name="numNights" /></td>
+		</table>
+		<br/>
+		<input type="submit" value="Submit Your Reservation" />
+
+	</form>
 
 </body>
+
 </html>

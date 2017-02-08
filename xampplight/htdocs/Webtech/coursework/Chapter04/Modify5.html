@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<!--	Author:
-		Date:
-		File:	Modify5.html
-		Purpose: Chapter 4 Exercise
+<!--Author:   Ethan Green
+	Date:     Feb 7
+	File:	  Modify5.html
+	Purpose:  Chapter 4 Exercise
 -->
-
+<!-- COMPLETED -->
 <html>
+
 <head>
-	<title>Modify5</title>
-	<link rel ="stylesheet" type="text/css" href="chapter4.css" />
-</head>
+    <title>Modify5</title>
+    <link rel="stylesheet" type="text/css" href="chapter4.css" /> </head>
 
 <body>
-	<h1>Modify5 Exercise</h1>
-
-	Change the form so that the user is also asked "How do you rate your Arithmetic skills?"
-	The form should use a drop down list to allow the user to choose betrween:
-	Excellent, Good, Average, Poor, Non-existent.
-	Use the name "skills" to obtain the user's selection.
-
-	<form action = "findTheSquare.php" method = "post" >
-		<p>What is the square of 3?
-		<input type = "text" size = "10" name = "answer" />
-		</p>
-		<p>
-		<input type = "submit" value = "Submit your answer" />
-		</p>
-	</form>
+    <h1>Modify5 Exercise</h1>
+    <p>Change the form so that the user is also asked "How do you rate your Arithmetic skills?" The form should use a drop down
+        list to allow the user to choose betrween: Excellent, Good, Average, Poor, Non-existent. Use the name "skills" to
+        obtain the user's selection.</p>
+    <form action="findTheSquare.php" method="post">
+        <p>How do you rate your Arithmetic skills?
+            <select name="skills">
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+                <option>Non-existent</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Submit your answer" /> </p>
+    </form>
 </body>
+
 </html>

@@ -181,3 +181,149 @@ httpd.exe: Syntax error on line 35 of C:/PHP Projects/xampplight/apache/conf/htt
 [Wed Jan 25 21:45:17 2017] [notice] Child 7784: All worker threads have exited.
 [Wed Jan 25 21:45:17 2017] [notice] Child 7784: Child process is exiting
 [Wed Jan 25 21:45:17 2017] [notice] Parent: Child process exited successfully.
+[Tue Feb 07 23:49:21 2017] [notice] Digest: generating secret for digest authentication ...
+[Tue Feb 07 23:49:21 2017] [notice] Digest: done
+[Tue Feb 07 23:49:44 2017] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Tue Feb 07 23:49:44 2017] [notice] Server built: Nov 11 2009 14:29:03
+[Tue Feb 07 23:49:44 2017] [notice] Parent: Created child process 13240
+[Tue Feb 07 23:49:45 2017] [notice] Digest: generating secret for digest authentication ...
+[Tue Feb 07 23:49:45 2017] [notice] Digest: done
+[Tue Feb 07 23:49:46 2017] [notice] Child 13240: Child process is running
+[Tue Feb 07 23:49:46 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 07 23:49:46 2017] [notice] Child 13240: Acquired the start mutex.
+[Tue Feb 07 23:49:46 2017] [notice] Child 13240: Starting 150 worker threads.
+[Tue Feb 07 23:49:46 2017] [notice] Child 13240: Exit event signaled. Child process is ending.
+[Tue Feb 07 23:49:46 2017] [error] (OS 10038)An operation was attempted on something that is not a socket.  : winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Tue Feb 07 23:49:46 2017] [error] (OS 10038)An operation was attempted on something that is not a socket.  : winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Tue Feb 07 23:49:46 2017] [error] (OS 10038)An operation was attempted on something that is not a socket.  : winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Tue Feb 07 23:49:46 2017] [error] (OS 10038)An operation was attempted on something that is not a socket.  : winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Tue Feb 07 23:49:47 2017] [notice] Child 13240: Released the start mutex
+[Tue Feb 07 23:49:48 2017] [notice] Child 13240: All worker threads have exited.
+[Tue Feb 07 23:49:48 2017] [notice] Child 13240: Child process is exiting
+[Tue Feb 07 23:49:48 2017] [notice] Parent: Child process exited successfully.
+[Tue Feb 07 23:50:34 2017] [notice] Digest: generating secret for digest authentication ...
+[Tue Feb 07 23:50:34 2017] [notice] Digest: done
+[Tue Feb 07 23:50:34 2017] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Tue Feb 07 23:50:34 2017] [notice] Server built: Nov 11 2009 14:29:03
+[Tue Feb 07 23:50:34 2017] [notice] Parent: Created child process 13104
+[Tue Feb 07 23:50:35 2017] [notice] Digest: generating secret for digest authentication ...
+[Tue Feb 07 23:50:35 2017] [notice] Digest: done
+[Tue Feb 07 23:50:35 2017] [notice] Child 13104: Child process is running
+[Tue Feb 07 23:50:35 2017] [notice] Child 13104: Acquired the start mutex.
+[Tue Feb 07 23:50:35 2017] [notice] Child 13104: Starting 150 worker threads.
+[Tue Feb 07 23:50:35 2017] [notice] Child 13104: Starting thread to listen on port 443.
+[Tue Feb 07 23:50:35 2017] [notice] Child 13104: Starting thread to listen on port 443.
+[Tue Feb 07 23:50:35 2017] [notice] Child 13104: Starting thread to listen on port 80.
+[Tue Feb 07 23:50:35 2017] [notice] Child 13104: Starting thread to listen on port 80.
+[Tue Feb 07 23:50:36 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/favicon.ico, referer: http://localhost/Webtech/
+[Wed Feb 08 00:03:00 2017] [error] [client ::1] script 'C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/findTheSquare.php' not found or unable to stat, referer: http://localhost/Webtech/coursework/Chapter04/Modify2.html
+[Wed Feb 08 00:14:38 2017] [error] [client ::1] script 'C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/findTheSquare.php' not found or unable to stat, referer: http://localhost/Webtech/coursework/Chapter04/Modify5.html
+[Wed Feb 08 00:34:49 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 00:35:06 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 08 00:35:06 2017] [notice] Child 13104: Exit event signaled. Child process is ending.
+[Wed Feb 08 00:35:07 2017] [notice] Child 13104: Released the start mutex
+[Wed Feb 08 00:35:08 2017] [notice] Child 13104: All worker threads have exited.
+[Wed Feb 08 00:35:08 2017] [notice] Child 13104: Child process is exiting
+[Wed Feb 08 00:35:08 2017] [notice] Parent: Child process exited successfully.
+[Wed Feb 08 00:35:12 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Feb 08 00:35:12 2017] [notice] Digest: done
+[Wed Feb 08 00:35:12 2017] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Wed Feb 08 00:35:12 2017] [notice] Server built: Nov 11 2009 14:29:03
+[Wed Feb 08 00:35:12 2017] [notice] Parent: Created child process 18068
+[Wed Feb 08 00:35:12 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Feb 08 00:35:12 2017] [notice] Digest: done
+[Wed Feb 08 00:35:13 2017] [notice] Child 18068: Child process is running
+[Wed Feb 08 00:35:13 2017] [notice] Child 18068: Acquired the start mutex.
+[Wed Feb 08 00:35:13 2017] [notice] Child 18068: Starting 150 worker threads.
+[Wed Feb 08 00:35:13 2017] [notice] Child 18068: Starting thread to listen on port 443.
+[Wed Feb 08 00:35:13 2017] [notice] Child 18068: Starting thread to listen on port 443.
+[Wed Feb 08 00:35:13 2017] [notice] Child 18068: Starting thread to listen on port 80.
+[Wed Feb 08 00:35:13 2017] [notice] Child 18068: Starting thread to listen on port 80.
+[Wed Feb 08 00:38:32 2017] [error] [client ::1] script 'C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/paintEstimate.php' not found or unable to stat, referer: http://localhost/Webtech/coursework/Chapter04/paintEstimate.html?
+[Wed Feb 08 00:38:53 2017] [error] [client ::1] script 'C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/paintEstimate.php' not found or unable to stat, referer: http://localhost/Webtech/coursework/Chapter04/paintEstimate.html?
+[Wed Feb 08 00:41:29 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 00:43:39 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 01:35:23 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 08 01:35:23 2017] [notice] Child 18068: Exit event signaled. Child process is ending.
+[Wed Feb 08 01:35:24 2017] [notice] Child 18068: Released the start mutex
+[Wed Feb 08 01:35:25 2017] [notice] Child 18068: All worker threads have exited.
+[Wed Feb 08 01:35:25 2017] [notice] Child 18068: Child process is exiting
+[Wed Feb 08 01:35:25 2017] [notice] Parent: Child process exited successfully.
+[Wed Feb 08 11:21:32 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Feb 08 11:21:32 2017] [notice] Digest: done
+[Wed Feb 08 11:21:33 2017] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Wed Feb 08 11:21:33 2017] [notice] Server built: Nov 11 2009 14:29:03
+[Wed Feb 08 11:21:33 2017] [notice] Parent: Created child process 8596
+[Wed Feb 08 11:21:33 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Feb 08 11:21:33 2017] [notice] Digest: done
+[Wed Feb 08 11:21:33 2017] [notice] Child 8596: Child process is running
+[Wed Feb 08 11:21:33 2017] [notice] Child 8596: Acquired the start mutex.
+[Wed Feb 08 11:21:33 2017] [notice] Child 8596: Starting 150 worker threads.
+[Wed Feb 08 11:21:33 2017] [notice] Child 8596: Starting thread to listen on port 443.
+[Wed Feb 08 11:21:33 2017] [notice] Child 8596: Starting thread to listen on port 443.
+[Wed Feb 08 11:21:33 2017] [notice] Child 8596: Starting thread to listen on port 80.
+[Wed Feb 08 11:21:33 2017] [notice] Child 8596: Starting thread to listen on port 80.
+[Wed Feb 08 11:21:50 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/favicon.ico, referer: http://localhost/Webtech/
+[Wed Feb 08 11:33:39 2017] [error] [client ::1] script 'C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/travel.php' not found or unable to stat, referer: http://localhost/Webtech/coursework/Chapter04/travel.html
+[Wed Feb 08 11:41:47 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:42:32 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:43:03 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:44:51 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:46:12 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:46:58 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:52:47 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:53:11 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:54:12 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:55:00 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:56:04 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/dist
+[Wed Feb 08 11:56:47 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 08 11:56:47 2017] [notice] Child 8596: Exit event signaled. Child process is ending.
+[Wed Feb 08 11:56:48 2017] [notice] Child 8596: Released the start mutex
+[Wed Feb 08 11:56:49 2017] [notice] Child 8596: All worker threads have exited.
+[Wed Feb 08 11:56:49 2017] [notice] Child 8596: Child process is exiting
+[Wed Feb 08 11:56:50 2017] [notice] Parent: Child process exited successfully.
+(OS 10048)Only one usage of each socket address (protocol/network address/port) is normally permitted.  : make_sock: could not bind to address [::]:80
+(OS 10048)Only one usage of each socket address (protocol/network address/port) is normally permitted.  : make_sock: could not bind to address 0.0.0.0:80
+no listening sockets available, shutting down
+Unable to open logs
+(OS 10048)Only one usage of each socket address (protocol/network address/port) is normally permitted.  : make_sock: could not bind to address [::]:80
+(OS 10048)Only one usage of each socket address (protocol/network address/port) is normally permitted.  : make_sock: could not bind to address 0.0.0.0:80
+no listening sockets available, shutting down
+Unable to open logs
+[Wed Feb 08 11:56:52 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Feb 08 11:56:52 2017] [notice] Digest: done
+[Wed Feb 08 11:56:52 2017] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Wed Feb 08 11:56:52 2017] [notice] Server built: Nov 11 2009 14:29:03
+[Wed Feb 08 11:56:52 2017] [notice] Parent: Created child process 13508
+[Wed Feb 08 11:56:52 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Feb 08 11:56:52 2017] [notice] Digest: done
+[Wed Feb 08 11:56:53 2017] [notice] Child 13508: Child process is running
+[Wed Feb 08 11:56:53 2017] [notice] Child 13508: Acquired the start mutex.
+[Wed Feb 08 11:56:53 2017] [notice] Child 13508: Starting 150 worker threads.
+[Wed Feb 08 11:56:53 2017] [notice] Child 13508: Starting thread to listen on port 80.
+[Wed Feb 08 11:56:53 2017] [notice] Child 13508: Starting thread to listen on port 443.
+[Wed Feb 08 11:56:53 2017] [notice] Child 13508: Starting thread to listen on port 443.
+[Wed Feb 08 11:56:53 2017] [notice] Child 13508: Starting thread to listen on port 80.
+[Wed Feb 08 11:56:55 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Feb 08 11:56:55 2017] [notice] Child 13508: Exit event signaled. Child process is ending.
+[Wed Feb 08 11:56:56 2017] [notice] Child 13508: Released the start mutex
+[Wed Feb 08 11:56:57 2017] [notice] Child 13508: All worker threads have exited.
+[Wed Feb 08 11:56:57 2017] [notice] Child 13508: Child process is exiting
+[Wed Feb 08 11:56:57 2017] [notice] Parent: Child process exited successfully.
+[Wed Feb 08 12:03:43 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Feb 08 12:03:43 2017] [notice] Digest: done
+[Wed Feb 08 12:03:44 2017] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Wed Feb 08 12:03:44 2017] [notice] Server built: Nov 11 2009 14:29:03
+[Wed Feb 08 12:03:44 2017] [notice] Parent: Created child process 5072
+[Wed Feb 08 12:03:44 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Feb 08 12:03:44 2017] [notice] Digest: done
+[Wed Feb 08 12:03:44 2017] [notice] Child 5072: Child process is running
+[Wed Feb 08 12:03:44 2017] [notice] Child 5072: Acquired the start mutex.
+[Wed Feb 08 12:03:44 2017] [notice] Child 5072: Starting 150 worker threads.
+[Wed Feb 08 12:03:44 2017] [notice] Child 5072: Starting thread to listen on port 443.
+[Wed Feb 08 12:03:44 2017] [notice] Child 5072: Starting thread to listen on port 443.
+[Wed Feb 08 12:03:44 2017] [notice] Child 5072: Starting thread to listen on port 80.
+[Wed Feb 08 12:03:44 2017] [notice] Child 5072: Starting thread to listen on port 80.
+[Wed Feb 08 12:03:48 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/favicon.ico, referer: http://localhost/Webtech/coursework/Chapter04/gameIntro.html
+[Wed Feb 08 12:11:26 2017] [error] [client ::1] script 'C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/gameIntro.php' not found or unable to stat, referer: http://localhost/Webtech/coursework/Chapter04/gameIntro.html
+[Wed Feb 08 12:11:29 2017] [error] [client ::1] script 'C:/CIS 115/xampplight/htdocs/Webtech/coursework/Chapter04/gameIntro.php' not found or unable to stat, referer: http://localhost/Webtech/coursework/Chapter04/gameIntro.html

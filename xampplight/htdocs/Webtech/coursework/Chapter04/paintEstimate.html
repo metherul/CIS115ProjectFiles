@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-<!--	Author:
-		Date:
-		File:	kingPainting.html
-		Purpose: Chapter 4 Exercise
+<!--Author:   Ethan Green
+	Date:     Feb 7
+	File:	  paintEstimate.html
+	Purpose:  Chapter 4 Exercise
 -->
-
+<!-- COMPLETED -->
 <html>
+
 <head>
-	<title>King Painting</title>
-	<link rel ="stylesheet" type="text/css" href="chapter4.css" />
-</head>
+    <title>King Painting</title>
+    <link rel="stylesheet" type="text/css" href="chapter4.css" /> </head>
 
 <body>
-
+    <h1>King Painting</h1>
+    <p>Use this to obtain a quick estimate of the cost to paint a room.</p>
+    <p>
+        <form action="paintEstimate.php" method="post">
+            <table>
+                <tr/>
+                <td>Room length in feet: </td>
+                <td>
+                    <input type=text name="roomLength"> </td>
+                <tr />
+                <td>Room width in feet: </td>
+                <td>
+                    <input type=text name="roomWidth"> </td>
+                <tr />
+                <td>Room height in feet: </td>
+                <td>
+                    <input type=text name="roomHeight"> </td>
+            </table>
+            <br>
+            <input type="submit" value="Display Estimated Painting Cost"> </form>
 </body>
+
 </html>
