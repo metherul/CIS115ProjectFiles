@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   February 16
 	File:	Modify4.php
 	Purpose:Chapter 5 Exercise
 
@@ -20,7 +20,7 @@
 	taken.
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify4</title>
@@ -33,10 +33,12 @@
 	<?php
 		$purchaseAmount = $_POST['purchaseAmount'];
 
-		$tax = $purchaseAmount * 0.07;
-		$total = $tax + $purchaseAmount;
+		$reducedTotal = $purchaseAmount * .75;
+		$tax = $reducedTotal * 0.07;
+		$total = $tax + $reducedTotal;
 
 		print("<p>Purchase Amount: $$purchaseAmount<br />");
+		print("Sale price: $$reducedTotal<br />");
 		print("Tax: $$tax<br />");
 		print("Total Cost: $$total</p>");
 

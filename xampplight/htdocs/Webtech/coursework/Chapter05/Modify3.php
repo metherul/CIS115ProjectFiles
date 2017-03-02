@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green 
+	Date:   February 16
 	File:	Modify3.php
 	Purpose:Chapter 5 Exercise
 
@@ -19,9 +19,8 @@
 	adult tickets purchased, the number of children's tickets purchased,
 	and the total cost. Modify3.php currently contains code that processes
 	only adult tickets.
-
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify3</title>
@@ -33,8 +32,10 @@
 
 	<?php
 		$adultTickets = $_POST['adultTickets'];
-		$totalCost = $adultTickets * 6.50;
+		$childTickets = $_POST['childTickets'];
+		$totalCost = ($adultTickets * 6.50) + ($childTickets * 4.50);
 		print("<p>You ordered $adultTickets adult tickets</p>");
+		print("<p>You ordered $childTickets child tickets</p>");
 		print("<p>Your cost is $$totalCost.</p>");
 	?>
 

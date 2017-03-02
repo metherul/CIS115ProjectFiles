@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   February 16
 	File:	Modify2.php
 	Purpose:Chapter 5 Exercise
 
@@ -23,7 +23,7 @@
 	age the user plans to retire instead.
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify2</title>
@@ -35,7 +35,8 @@
 
 	<?php
 		$age = $_POST['age'];
-		$yearsToRetire = 65 - $age;
+		$retirementAge = $_POST['retirementAge'];
+		$yearsToRetire = $retirementAge - $age;
 
 		print("<p>Your age is $age. You have $yearsToRetire years until retirement.</p>");
 	?>

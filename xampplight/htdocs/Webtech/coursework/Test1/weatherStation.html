@@ -1,0 +1,42 @@
+<!--	Author:  Ethan Green
+		Date:    February 21
+		File:	 weatherStation.html
+		Purpose: Weather exercise
+-->
+<!-- COMPLETED -->
+<html>
+	<head>
+		<title>Weather Station</title>
+		<link rel ="stylesheet" type="text/css" href="weather.css" />
+	</head>
+
+	<body>
+		<h1>Weather Station</h1>
+		
+		<form action="weatherStation.php" method=POST>
+			<table>
+				<td>Please enter the high temperature: </td>
+				<td><input type="text" name="highTemperature"/></td>
+				<tr/>
+				<td>Please enter the low temperature: </td>
+				<td><input type="text" name="lowTemperature"/></td>
+				<tr/>
+				<td>Please enter the daily rainfall amount: </td>
+				<td><input type="text" name="rainfallAmount"/></td>
+				<tr/>
+				<td>Please choose the weather conditions: </td>
+				<td>
+					<select>
+						<option>Sunny</option>
+						<option>Cloudy</option>
+						<option>Rainy</option>
+						<option>Snow</option>
+					</select>
+				</td>
+				<tr/>
+				<td><button type="submit">Submit</button></td>
+				<td><button>Clear</button></td>
+			</table>
+		</form>	
+	</body>
+</html>

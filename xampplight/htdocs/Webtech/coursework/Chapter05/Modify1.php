@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   February 16  
 	File:	Modify1.php
 	Purpose:Chapter 5 Exercise
 
@@ -22,8 +22,7 @@
 	and display the years worked so far.
 
 -->
-
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify1</title>
@@ -36,8 +35,9 @@
 	<?php
 		$age = $_POST['age'];
 		$yearsToRetire = 65 - $age;
+		$yearsWorked = $age - 18;
 
-		print("<p>Your age is $age. You have $yearsToRetire years until retirement.</p>");
+		print("<p>Your age is $age, you have worked for $yearsWorked years, and you have $yearsToRetire years until retirement.</p>");
 	?>
 
 </body>

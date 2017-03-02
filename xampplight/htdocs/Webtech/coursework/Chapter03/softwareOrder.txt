@@ -52,7 +52,7 @@ END
 
 softwareOrder.php algorithm:
 
-    RECIEVE operatingSystem, copyCount
+    RECIEVE operatingSystem, copyCount (os, numCopies)
     
     subTotal = copyCount * 35.00
     tax = subTotal * .07
