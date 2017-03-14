@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 13
 	File:	travel.php
 	Purpose:Chapter 7 Exercise
 
 -->
-
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Travel</title>
@@ -21,10 +20,18 @@
 		$numTravelers = $_POST['numTravelers'];
 		$numNights = $_POST['numNights'];
 
+		if ($destination == "Rome")
+		{
+			$tickets = $numTravelers * 875;
+			$hotel = ($numNights * 110) * $numTravelers;
+		}
 
+		else if ($destination == "Tokyo")
+		{
+			$tickets = $numTravelers * 1575;
+			$hotel = ($numNights * 240) * $numTravelers;
+		}
 
-		$tickets = 
-		$hotel = 
 		$totalCost = $tickets + $hotel;
 
 		print("<p>Destination: $destination<br />");

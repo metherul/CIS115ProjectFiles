@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date:     March 13
 	File:	  FixIt4.php
 	Purpose:  What's wrong here? The program does not display the
 	hourly wage, hours worked or weekly age	if the hours worked is
 	greater than 40. It only displays this information if the hours worked
 	is 40 or less..
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Wage Report</title>
@@ -27,15 +27,11 @@
 			$wage = $wage + 100;
 		}
 		else
-		{
 			print("<p>You only get a bonus if you work more than 40 hours.</p>");
 
 		print("<p>Your hourly wage is $ $hourlyWage and you worked
 		$hoursWorked hours.</p>");
 		print("<p>Your wages are $ $wage.</p>");
-		}
-
-
 	?>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 13
 	File:	Modify2.php
 	Purpose:Chapter 7 Exercise
 
@@ -14,7 +14,7 @@
 	at the end of the existing output.
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify2</title>
@@ -33,6 +33,11 @@
 		print("<p>You ordered $adultTickets adult tickets and
 		$childTickets children's tickets.</p>");
 		print("<p>Your cost is $$totalCost.</p>");
+
+		if ($childTickets >= 2)
+		{
+			print("<p>We hope your kids enjoy the show! </p>");
+		}
 
 	?>
 

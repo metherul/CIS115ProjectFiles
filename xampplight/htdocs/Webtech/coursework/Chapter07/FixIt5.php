@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date:     March 13
 	File:	  FixIt5.php
 	Purpose:  What's wrong here? The program is supposed to display
 	"You did not work this week" if the hours worked is 0
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Wage Report</title>
@@ -19,8 +19,9 @@
 		$hoursWorked = 0;
 
 
-		if ($hoursWorked = 0)
+		if ($hoursWorked == 0)
 			print("<p>You did not work this week</p>");
+
 		else
 		{
 			$wage = $hourlyWage * $hoursWorked;

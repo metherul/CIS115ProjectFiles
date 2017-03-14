@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 2
 	File:	Modify2.php
 	Purpose:Chapter 6 Exercise
 
@@ -17,7 +17,7 @@
 	capital cities in the capitalInfo.txt file.
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify2</title>
@@ -30,11 +30,20 @@
 	<?php
 		$capitalFile = fopen("capitalInfo.txt","r");	// open the file for read operations
 		$countryRecord1 = fgets($capitalFile);			// read a line from the file
+		$countryRecord2 = fgets($capitalFile);
+		$countryRecord3 = fgets($capitalFile);
+		$countryRecord4 = fgets($capitalFile);
 		fclose($capitalFile);
 
 		list ($country1, $capital1) = explode(":", $countryRecord1);
+		list ($country2, $capital2) = explode(":", $countryRecord2);
+		list ($country3, $capital3) = explode(":", $countryRecord3);
+		list ($country4, $capital4) = explode(":", $countryRecord4);
 
 		print("<p>$capital1 is the capital city of $country1.</p>");
+		print("<p>$capital2 is the capital city of $country2.</p>");
+		print("<p>$capital3 is the capital city of $country3.</p>");
+		print("<p>$capital4 is the capital city of $country4.</p>");
 
 	?>
 

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date:     March 13
 	File:	  FixIt2.php
 	Purpose:  What's wrong here? The program is giving a 100.00 bonus
 	 		  although the hours worked is not more than 40!
@@ -10,7 +10,7 @@
 			  following the test to only be excuted if the test is true.
 			  How do we accomplish this? What is missing?
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Wage Report</title>
@@ -25,9 +25,10 @@
 		$wage = $hourlyWage * $hoursWorked;
 
 		if ($hoursWorked > 40)
-
+		{
 			print("<p>Since you worked more than 40 hours you also get a $100 bonus.</p>");
 			$wage = $wage + 100;
+		}
 
 		print("<p>Your hourly wage is $ $hourlyWage and you worked
 		$hoursWorked hours.</p>");

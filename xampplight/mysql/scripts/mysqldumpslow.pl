@@ -1,4 +1,4 @@
-#!"C:\CIS 115\xampplight\perl\bin\perl.exe"
+#!"C:\Programming\CIS115ProjectFiles\xampplight\perl\bin\perl.exe"
 # mysqldumpslow - parse and summarize the MySQL slow query log
 
 # Original version by Tim Bunce, sometime in 2000.

@@ -12,9 +12,8 @@
 		years the person has been retired. To do this, use an IF..ELSE structure
 		to test the age. Assume that someone less than 65
 		is not retired, someone 65 or older is retired
-
-
 -->
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify1</title>
@@ -28,7 +27,15 @@
 		$age = $_POST['age'];
 		$yearsToRetire = 65 - $age;
 
-		print("<p>Your age is $age. You have $yearsToRetire years until retirement.</p>");
+		if ($age < 65)
+		{
+			print("<p>Your age is $age. You have $yearsToRetire years until retirement.</p>");
+		}
+
+		else if ($age >= 65)
+		{
+			print("<p>Your age is $age, so you are retired!</p>");
+		}
 	?>
 
 </body>

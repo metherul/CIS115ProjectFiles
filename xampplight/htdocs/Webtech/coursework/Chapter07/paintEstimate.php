@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 13
 	File:	paintEstimate.php
 	Purpose:Chapter 7 Exercise
 	
 -->
-
 
 <html>
 <head>

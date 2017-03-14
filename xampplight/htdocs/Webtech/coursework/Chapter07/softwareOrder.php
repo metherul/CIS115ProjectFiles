@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 13
 	File:	softwareOrder.php
-	Purpose:Chapter 7 Exercise
+	Purpose:Chapter 7 Assignment 2
 
 -->
-
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>SaveTheWorld Software</title>
@@ -23,6 +22,11 @@
 		$subTotal = $numCopies * 35.00;
 		$salesTax = $subTotal * 0.07;
 
+		if ($numCopies < 5)
+			$shippingAndHandling = 3.50;
+		
+		else if ($numCopies >= 5)
+			$shippingAndHandling = .75 * $numCopies;
 
 		$totalCost = $subTotal + $salesTax + $shippingAndHandling;
 

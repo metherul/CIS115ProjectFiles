@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 2
 	File:	Modify1.php
 	Purpose:Chapter 6 Exercise
 
@@ -22,10 +22,8 @@
 		submission, open capitals.txt to see that the file has been changed.
 		Note that now each new submission is added to the existing file.
 
-
-
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify1</title>
@@ -39,7 +37,7 @@
 		$country = $_POST['country'];
 		$capitalCity = $_POST['capitalCity'];
 
-		$capitalFile = fopen("capitals.txt","w");	// open the file for write operations
+		$capitalFile = fopen("capitals.txt","a");	// open the file for write operations
 
 		fputs($capitalFile, "$country:$capitalCity\n");// write the input to the file
 		fclose($capitalFile);

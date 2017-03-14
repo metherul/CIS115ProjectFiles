@@ -423,3 +423,62 @@ Unable to open logs
 [Tue Feb 21 14:08:54 2017] [notice] Child 6148: Starting thread to listen on port 80.
 [Tue Feb 21 14:08:54 2017] [notice] Child 6148: Starting thread to listen on port 80.
 [Tue Feb 21 14:08:55 2017] [error] [client ::1] File does not exist: C:/CIS 115/xampplight/htdocs/favicon.ico, referer: http://localhost/Webtech/
+[Mon Mar 06 01:17:15 2017] [warn] pid file C:/Programming/CIS115ProjectFiles/xampplight/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 06 01:17:15 2017] [notice] Digest: generating secret for digest authentication ...
+[Mon Mar 06 01:17:15 2017] [notice] Digest: done
+[Mon Mar 06 01:17:15 2017] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Mon Mar 06 01:17:15 2017] [notice] Server built: Nov 11 2009 14:29:03
+[Mon Mar 06 01:17:15 2017] [notice] Parent: Created child process 12252
+[Mon Mar 06 01:17:16 2017] [notice] Digest: generating secret for digest authentication ...
+[Mon Mar 06 01:17:16 2017] [notice] Digest: done
+[Mon Mar 06 01:17:16 2017] [notice] Child 12252: Child process is running
+[Mon Mar 06 01:17:16 2017] [notice] Child 12252: Acquired the start mutex.
+[Mon Mar 06 01:17:16 2017] [notice] Child 12252: Starting 150 worker threads.
+[Mon Mar 06 01:17:16 2017] [notice] Child 12252: Starting thread to listen on port 443.
+[Mon Mar 06 01:17:16 2017] [notice] Child 12252: Starting thread to listen on port 443.
+[Mon Mar 06 01:17:16 2017] [notice] Child 12252: Starting thread to listen on port 80.
+[Mon Mar 06 01:17:16 2017] [notice] Child 12252: Starting thread to listen on port 80.
+[Mon Mar 06 01:17:26 2017] [error] [client ::1] File does not exist: C:/Programming/CIS115ProjectFiles/xampplight/htdocs/favicon.ico, referer: http://localhost/Webtech/
+[Mon Mar 06 15:22:36 2017] [warn] pid file C:/Programming/CIS115ProjectFiles/xampplight/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 06 15:22:36 2017] [notice] Digest: generating secret for digest authentication ...
+[Mon Mar 06 15:22:36 2017] [notice] Digest: done
+[Mon Mar 06 15:22:36 2017] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Mon Mar 06 15:22:36 2017] [notice] Server built: Nov 11 2009 14:29:03
+[Mon Mar 06 15:22:36 2017] [notice] Parent: Created child process 7956
+[Mon Mar 06 15:22:36 2017] [notice] Digest: generating secret for digest authentication ...
+[Mon Mar 06 15:22:36 2017] [notice] Digest: done
+[Mon Mar 06 15:22:37 2017] [notice] Child 7956: Child process is running
+[Mon Mar 06 15:22:37 2017] [notice] Child 7956: Acquired the start mutex.
+[Mon Mar 06 15:22:37 2017] [notice] Child 7956: Starting 150 worker threads.
+[Mon Mar 06 15:22:37 2017] [notice] Child 7956: Starting thread to listen on port 443.
+[Mon Mar 06 15:22:37 2017] [notice] Child 7956: Starting thread to listen on port 443.
+[Mon Mar 06 15:22:37 2017] [notice] Child 7956: Starting thread to listen on port 80.
+[Mon Mar 06 15:22:37 2017] [notice] Child 7956: Starting thread to listen on port 80.
+[Mon Mar 06 15:22:49 2017] [error] [client ::1] File does not exist: C:/Programming/CIS115ProjectFiles/xampplight/htdocs/favicon.ico, referer: http://localhost/Webtech/
+[Mon Mar 06 16:24:27 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 06 16:24:27 2017] [notice] Child 7956: Exit event signaled. Child process is ending.
+[Mon Mar 06 16:24:28 2017] [notice] Child 7956: Released the start mutex
+[Mon Mar 06 16:24:29 2017] [notice] Child 7956: All worker threads have exited.
+[Mon Mar 06 16:24:29 2017] [notice] Child 7956: Child process is exiting
+[Mon Mar 06 16:24:29 2017] [notice] Parent: Child process exited successfully.
+[Tue Mar 14 00:09:12 2017] [notice] Digest: generating secret for digest authentication ...
+[Tue Mar 14 00:09:12 2017] [notice] Digest: done
+[Tue Mar 14 00:09:13 2017] [notice] Apache/2.2.14 (Win32) DAV/2 mod_ssl/2.2.14 OpenSSL/0.9.8l mod_autoindex_color PHP/5.3.1 configured -- resuming normal operations
+[Tue Mar 14 00:09:13 2017] [notice] Server built: Nov 11 2009 14:29:03
+[Tue Mar 14 00:09:13 2017] [notice] Parent: Created child process 10760
+[Tue Mar 14 00:09:13 2017] [notice] Digest: generating secret for digest authentication ...
+[Tue Mar 14 00:09:13 2017] [notice] Digest: done
+[Tue Mar 14 00:09:14 2017] [notice] Child 10760: Child process is running
+[Tue Mar 14 00:09:14 2017] [notice] Child 10760: Acquired the start mutex.
+[Tue Mar 14 00:09:14 2017] [notice] Child 10760: Starting 150 worker threads.
+[Tue Mar 14 00:09:14 2017] [notice] Child 10760: Starting thread to listen on port 443.
+[Tue Mar 14 00:09:14 2017] [notice] Child 10760: Starting thread to listen on port 443.
+[Tue Mar 14 00:09:14 2017] [notice] Child 10760: Starting thread to listen on port 80.
+[Tue Mar 14 00:09:14 2017] [notice] Child 10760: Starting thread to listen on port 80.
+[Tue Mar 14 00:09:18 2017] [error] [client ::1] File does not exist: C:/Programming/CIS115ProjectFiles/xampplight/htdocs/favicon.ico, referer: http://localhost/Webtech/
+[Tue Mar 14 01:58:19 2017] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 14 01:58:19 2017] [notice] Child 10760: Exit event signaled. Child process is ending.
+[Tue Mar 14 01:58:20 2017] [notice] Child 10760: Released the start mutex
+[Tue Mar 14 01:58:21 2017] [notice] Child 10760: All worker threads have exited.
+[Tue Mar 14 01:58:21 2017] [notice] Child 10760: Child process is exiting
+[Tue Mar 14 01:58:21 2017] [notice] Parent: Child process exited successfully.

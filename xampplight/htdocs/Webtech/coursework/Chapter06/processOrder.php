@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 2
 	File:	processOrder.php
 	Purpose:Chapter 6 Exercise
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>SaveTheWorld Software</title>
@@ -17,7 +17,8 @@
 
 	<?php
 		
-
+		$readFile = fopen("order.txt", "r");
+		list($os, $numCopies) = explode(":", fgets($readFile));
 
 		$subtotal = $numCopies * 35.00;
 		$tax = $subtotal * 0.07;

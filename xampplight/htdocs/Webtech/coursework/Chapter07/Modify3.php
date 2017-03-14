@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 13
 	File:	Modify3.php
 	Purpose:Chapter 7 Exercise
 
@@ -17,7 +17,7 @@
 	instead of xxx
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify3</title>
@@ -30,7 +30,16 @@
 	<?php
 		$capital = $_POST['capital'];
 		print("<p>You selected $capital.</p>");
-		print("<p>The capital of Egypt is Cairo.</p>");
+
+		if ($capital == "Cairo")
+		{
+			print("<p>CORRECT - You know your geography!</p>");
+		}
+
+		else
+		{
+			print("<p>You entered $capital. That is not correct. The capital of Egypt is Cairo.</p>");
+		}
 	?>
 
 </body>

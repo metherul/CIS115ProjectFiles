@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date: 	  March 2
 	File:	  FixIt5.php
 	Purpose:  What's wrong here? This program is supposed to open a
 			  file for reading, read three first names. last names, and
@@ -13,7 +13,7 @@
 			  Now look at how this data is being parsed - the problem has to do
 			  with the explode() functions.
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Wage Report</title>
@@ -30,9 +30,9 @@
 		$employee3 = fgets($wageFile);		// reads data for the 3rd employee from the file
 		fclose($wageFile);
 
-		list($firstName1, $lastName1, $wage1) = explode(":", $employee1);
-		list($firstName2, $lastName2, $wage2) = explode(":", $employee2);
-		list($firstName3, $lastName3, $wage3) = explode(":", $employee3);
+		list($firstName1, $lastName1, $wage1) = explode(",", $employee1);
+		list($firstName2, $lastName2, $wage2) = explode(",", $employee2);
+		list($firstName3, $lastName3, $wage3) = explode(",", $employee3);
 
 		$totalWages = $wage1 + $wage2 + $wage3;
 		$avgWage = $totalWages/3;

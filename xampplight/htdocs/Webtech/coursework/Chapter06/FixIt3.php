@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date:     March 2
 	File:	  FixIt3.php
 	Purpose:  What's wrong here? This program is supposed to open a
 			  file for reading, read three wage amounts from the file,
@@ -10,7 +10,7 @@
 			  Hint: each of the lines is associated with accessing the
 			  text file that we opened in line 22
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Wage Report</title>
@@ -20,7 +20,7 @@
 	<h1>WAGE REPORT</h1>
 
 	<?php
-		$wageFile = fopen("wages.txt","r");	//  open the file containing employee wages
+		$wageFile = fopen("wages1.txt","r");	//  open the file containing employee wages
 		$wage1 = fgets($wageFile);		// read the first wage from the file
 		$wage2 = fgets($wageFile);		// read the second wage from the file
 		$wage3 = fgets($wageFile);		// read the third wage from the file

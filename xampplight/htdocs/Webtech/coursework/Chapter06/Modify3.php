@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 2
 	File:	Modify3.php
 	Purpose:Chapter 6 Exercise
 
@@ -18,7 +18,7 @@
 	and displays the cost of each sale AND also the total sales.
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify3</title>
@@ -31,11 +31,20 @@
 	<?php
 		$ticketFile = fopen("tickets.txt","r");	// open the file for read operations
 		$ticketOrder1 = fgets($ticketFile);			// read a line from the file
+		$ticketOrder2 = fgets($ticketFile);
+		$ticketOrder3 = fgets($ticketFile);
 		fclose($ticketFile);
 
 		$ticketSale1 = $ticketOrder1 * 6.50;
+		$ticketSale2 = $ticketOrder2 * 6.50;
+		$ticketSale3 = $ticketOrder3 * 6.50;
+
+		$total = $ticketSale1 + $ticketSale2 + $ticketSale3;
 
 		print("<p>TICKET SALE 1: $$ticketSale1</p>");
+		print("<p>TICKET SALE 2: $$ticketSale2</p>");
+		print("<p>TICKET SALE 3: $$ticketSale3</p>");
+		print("<p>TOTAL: $$total</p>");
 
 	?>
 

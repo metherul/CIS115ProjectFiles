@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date:     March 13
 	File:	  FixIt1.php
 	Purpose:  What's wrong here? When you run the program the browser
 			  DISPLAYS an error message relating to line 25. Can you fix it?
 -->
-
+<!-- CO<MPLETED -->
 <html>
 <head>
 	<title>Wage Report</title>
@@ -23,7 +23,7 @@
 		$hoursWorked hours.</p>");
 		print("<p>Your wages are $ $wage.</p>");
 
-		if $hoursWorked > 40
+		if ($hoursWorked > 40)
 			print("<p>Since you worked more than 40 hours you also get a $100 bonus.</p>");
 	?>
 </body>
