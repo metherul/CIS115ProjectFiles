@@ -41,7 +41,7 @@
 
 		if ($totalSold > 1200)
 		{
-			print ("Good news: Your 2014 sales are higher than 2013. Let’s achieve even higher sales in 2015!");
+			print ("Good news: Your 2014 sales are higher than 2013. Let's achieve even higher sales in 2015!");
 		}
 
 		else

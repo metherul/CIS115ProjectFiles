@@ -2,7 +2,7 @@
 		Date:   March 29
 		File:	orderForm1.php
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>CD Orders</title>
@@ -28,13 +28,13 @@
 		}	
 
 		$cdCost = number_format($individualCost * $cdCount, 2);
-		$totalCost = $cdCost + 2.50;
+		$totalCost = number_format($cdCost + 2.50, 2);
 
 		print ("<p>CD Title: $title <br/>");
 		print ("Number of CDs: $cdCount <br/>");
-		print ("Cost of CDs: $cdCost <br/>");
+		print ("Cost of CDs: $cdCost$ <br/>");
 		print ("Shipping Cost: 2.50$ <br/>");
-		print ("Total Cost: $totalCost </p>")		
+		print ("Total Cost: $totalCost$ </p>")		
 	?>
 
 </body>

@@ -16,7 +16,7 @@
 	// Not a pretty way to go about things.
 	$file = fopen ("myCDs.txt", "r");
 
-	// Line (1
+	// Line 1
 	$childArray = explode(":", fgets($file));
 	$year1 = $childArray[0];
 	$title1 = $childArray[1];
@@ -38,8 +38,6 @@
 	$price3 = $childArray[3];
 
 	fclose($file);
-
-
 
 	print("<h1>Here are my CDs</h1>
 			<table border = \"1\">
