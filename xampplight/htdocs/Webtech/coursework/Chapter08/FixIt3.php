@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date:     March 16
 	File:	  FixIt3.php
 	Purpose:  This program works but the logic is wrong.
 			  The program is supposed to first increase the wage
@@ -10,7 +10,7 @@
 			  being given to anyone who earns less than 8.00
 			  Can you fix it?
 -->
-
+<!-- COMPLETED --> 	
 <html>
 <head>
 	<title>Wage Report</title>
@@ -22,12 +22,13 @@
 	<?php
 		$hourlyWage = 7.75;
 		$hoursWorked = 20;
-		$wage = $hourlyWage * $hoursWorked;
 
 		if ($hourlyWage < 8.00)
 			$hourlyWage = 8.00;
 
-		elseif ($hoursWorked < 40)
+		$wage = $hourlyWage * $hoursWorked;
+
+		if ($hoursWorked < 40)
 			$bonus = 50.00;
 		else
 			$bonus = 100.00;

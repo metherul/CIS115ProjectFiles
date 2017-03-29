@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date:     March 16
 	File:	  FixIt4.php
 	Purpose:  This program works but the logic is wrong. The
 			  program is supposed to allocate a 100.00 bonus to those
@@ -12,7 +12,7 @@
 			  even if they worked more than 40 hours. Can you fix the problem?
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Wage Report</title>
@@ -29,8 +29,9 @@
 		if ($hoursWorked > 40)
 			$bonus = 100.00;
 
-		if ($hoursWorked > 20)
+		else if ($hoursWorked > 20)
 			$bonus = 50.00;
+		
 		else
 			$bonus = 25.00;
 

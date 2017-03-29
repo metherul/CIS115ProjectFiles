@@ -12,13 +12,13 @@ p	{ font-family: Arial, Helvetica, Sans-serif; font-size:10pt;
 p.alert	{ font-style: italic; color:red;}
 
 table	{ font-family: Arial, Helvetica, Sans-serif; font-size:10pt;
-	  color:black; }
+	  color:black; background: white}
 
 select	{ font-family: Arial, Helvetica, Sans-serif; font-size:10pt;
-	  font-weight: bold; color:blue; background: lightBlue; }
+	  font-weight: bold; color:blue; background: lightBlue}
 
 option	{ font-family: Arial, Helvetica, Sans-serif; font-size:10pt;
-	  color:black; background: silver; }
+	  color:black; background: silver}
 
 
 

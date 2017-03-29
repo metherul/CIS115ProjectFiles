@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 16
 	File:	travel.php
 	Purpose:Chapter 8 Exercise
 -->
@@ -20,6 +20,46 @@
 		$numTravelers = $_POST['numTravelers'];
 		$numNights = $_POST['numNights'];
 		
+		if ($destination == "Barcelona")
+		{
+			$airFare = 875;
+			$perNight = 85;
+		}
+
+		else if ($destination == "Cairo")
+		{
+			$airFare = 950;
+			$perNight = 98;
+		}
+
+		else if ($destination == "Rome")
+		{
+			$airFare = 875;
+			$perNight = 110;
+		}
+
+		else if ($destination == "Santiago")
+		{
+			$airFare = 820;
+			$perNight = 85;
+		}
+
+		else if ($destination == "Tokyo")
+		{
+
+			$perNight = 240;
+
+			if ($numTravelers >= 5)
+			{
+				$airFare = 1575 - 200;
+			}
+
+			else
+			{
+				$airFare = 1575;
+			}
+		}
+
 		$tickets = $numTravelers * $airFare;
 		$hotel = $numTravelers * $numNights * $perNight;
 		$totalCost = $tickets + $hotel;

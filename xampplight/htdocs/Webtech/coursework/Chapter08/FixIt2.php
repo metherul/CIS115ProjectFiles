@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date:     March 16
 	File:	  FixIt2.php
 	Purpose:  This program works but the logic is wrong. It is
 			  supposed to give a $100 bonus to anyone when EITHER
@@ -11,7 +11,7 @@
 			  when BOTH of these conditions are true.
 			  Can you fix it?
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Wage Report</title>
@@ -25,7 +25,7 @@
 		$hoursWorked = 50;
 		$wage = $hourlyWage * $hoursWorked;
 
-		if ($hoursWorked > 40 and $hourlyWage < 8.00)
+		if ($hoursWorked > 40 or $hourlyWage < 8.00)
 		{
 			print("<p>You get a $100 bonus.</p>");
 			$wage = $wage + 100;

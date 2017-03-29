@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author:   Ethan Green
+	Date:     March 16
 	File:	  FixIt5.php
 	Purpose:  This program works but the logic is wrong. If the
 			  hours worked is a negative number, the program
@@ -10,7 +10,7 @@
 			  if..else structure and the wage output is skipped?
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Wage Report</title>
@@ -21,24 +21,31 @@
 
 	<?php
 		$hourlyWage = 10.75;
-		$hoursWorked = -1;
+		$hoursWorked = 1;
 		$wage = $hourlyWage * $hoursWorked;
 
 		if ($hoursWorked < 0)
+		{
 			print("<p><h1>ERROR: You can't work negative hours!</h1></p>");
+		}
 
-		if ($hoursWorked > 40 and $hourlyWage < 8.00)
+		else if ($hoursWorked > 40 and $hourlyWage < 8.00)
 		{
 			print("<p>You get a $100 bonus.</p>");
 			$wage = $wage + 100;
 		}
 		else
+		{
 			print("<p>No bonus this week</p>");
+		}
 
-		print("<p>Your hourly wage is $ $hourlyWage and you worked
-		$hoursWorked hours.</p>");
-		print("<p>Your wages are $ $wage.</p>");
+		if ($hoursWorked > 0)
+		{
+			print("<p>Your hourly wage is $ $hourlyWage and you worked
+			$hoursWorked hours.</p>");
+			print("<p>Your wages are $ $wage.</p>");
 
+		}
 
 	?>
 </body>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 16
 	File:	Modify2.php
 	Purpose:Chapter 8 Exercise
 
@@ -15,7 +15,7 @@
 		tickets for a party of 4 adults and 2 children
 		will cost $25.00
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify2</title>
@@ -28,8 +28,23 @@
 	<?php
 		$adultTickets = $_POST['adultTickets'];
 		$childTickets = $_POST['childTickets'];
+		$partySize = $adultTickets + $childTickets;
 
-		$discount = 0.00;
+		if ($partySize >= 10)
+		{
+			$discount = 15;
+		}
+
+		else if ($partySize >= 6)
+		{
+			$discount = 10;
+		}
+
+		else
+		{
+			$discount = 0;
+		}
+
 		$totalCost = $adultTickets * 6.50 + $childTickets * 4.50 - $discount;
 		print("<p>You ordered $adultTickets adult tickets and
 		$childTickets children's tickets.</p>");

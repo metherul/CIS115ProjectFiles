@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 16
 	File:	Modify1.php
 	Purpose:Chapter 8 Exercise
 
@@ -11,6 +11,7 @@
 		Use this error message:
 		"<p>ERROR: You entered $age - that is out of range</p>"
 -->
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify1</title>
@@ -23,9 +24,17 @@
 	<?php
 		$age = $_POST['age'];
 
-		$yearsToRetire = 65 - $age;
+		if ($age < 0 or $age > 65)
+		{
+			print("<p>ERROR: You entered $age - that is out of range.</p>");
+		}
 
-		print("<p>Your age is $age. You have $yearsToRetire years until retirement.</p>");
+		else
+		{
+			$yearsToRetire = 65 - $age;
+
+			print("<p>Your age is $age. You have $yearsToRetire years until retirement.</p>");
+		}
 	?>
 
 </body>

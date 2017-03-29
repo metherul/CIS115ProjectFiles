@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--Author:
-	Date:
+<!--Author: Ethan Green
+	Date:   March 16
 	File:	Modify3.php
 	Purpose:Chapter 8 Exercise
 
@@ -17,7 +17,7 @@
 	a look at artGallery.php and jokester.php in the samples folder
 
 -->
-
+<!-- COMPLETED -->
 <html>
 <head>
 	<title>Modify3</title>
@@ -30,8 +30,34 @@
 	<?php
 		$capital = $_POST['capital'];
 
+		if ($capital == "Cairo")
+		{
+			print("<p>That is correct.</p>");
+			print("<p>The capital of Egypt is Cairo</p>");
+		}
 
-		print("<p>The capital of Egypt is Cairo</p>");
+		else if ($capital == "London")
+		{
+			print("<p>You entered London, which is the capital city of England.</p>");
+		}
+
+		else if ($capital == "Madrid")
+		{
+			print("<p>You entered Madrid, which is the capital city of Spain.</p>");
+		}
+
+		else if ($capital == "Istanbul")
+		{
+			print("<p>You entered Istanbul, which is the capital city of Turkey.</p>");
+		}
+
+		else if ($capital == "Rome")
+		{
+			print("<p>You entered Rome, which is the capital city of Italy.</p>");
+		}
+
+		// Can't wait until we're using Switch Statements. These IF statements did not feel good to write.
+
 	?>
 
 </body>
